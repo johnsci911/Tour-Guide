@@ -1,3 +1,11 @@
+### Instructions
+* Copy .env.example to your .env
+* Register your free account at OpenWeathermap.org and at developer.foursquare.com
+* Add your **Openweather API key** to your **.env** - `OPENWEATHER_KEY`
+* Add your **Foursquare API id** to your **.env** - `FOURSQUARE_CLIENT_ID`
+* Add your **Foursquare API secret** to your **.env** - `FOURSQUARE_CLIENT_SECRET`
+* Run `composer install; php artisan key:generate; yarn install; yarn run dev;`
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
